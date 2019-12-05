@@ -1,0 +1,9 @@
+install.packages("tuber")
+
+# install.packages('devtools')
+devtools::install_github("soodoku/tuber", build_vignettes = TRUE)
+
+library(tuber)
+
+yt_oauth("371437818108-j9ine4l008d82677e3qca67ivroopbhr.apps.googleusercontent.com","bqJ36jQPRCRaAVDtrBLqaxZj")
+get_stats(video_id="N708P-A45D0")
